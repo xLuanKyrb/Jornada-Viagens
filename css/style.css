@@ -45,4 +45,11 @@ body {
   background-color: var(--background-primary-color);
   font-family: "Montserrat", sans-serif;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-tertiary-color);
+}
 
