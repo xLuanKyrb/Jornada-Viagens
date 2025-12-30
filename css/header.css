@@ -41,8 +41,7 @@ input[type="checkbox"]:checked ~ nav{
 }
 .list-links li a{
     color: var(--text-secondary-color);
-    font-weight: var(--text-weight);
-
+    font-weight: var(--title-weight);
 }
 
 nav{
