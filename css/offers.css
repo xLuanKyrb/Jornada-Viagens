@@ -32,6 +32,13 @@
     display: inline-block;    
 }
 
+section.offers .offers-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
 @media screen and (min-width: 768px) {
     .card{
         width: 558px;
@@ -43,14 +50,9 @@
     }
 
     .card header span{
-        font-size: 40px;  
+    font-size: 40px;  
     }
     
 }
 
-section.offers .offers-cards{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: center;
-}
+
