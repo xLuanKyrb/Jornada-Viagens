@@ -1,23 +1,21 @@
-.card{
+.card {
     color: var(--text-secondary-color);
+    background-color: black;
     width: 312px;
     height: 288px;
     box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-    border-radius: 16px;
     padding: 24px 16px;
-    background-size: cover;
-    background-color: black;
+    border-radius: 16px;
+    text-align: center;
 }
-.card header{
+.card header {
     display: block;
-    position: static;    
     background-color: transparent;
-    padding: 0;
-    margin-bottom: 24px;
+    padding: 24px 16px;
+    position: static;
 }
-.card header p{
+
+.card header p {
     font-size: 20px;
     font-weight: var(--text-weight);
 }
@@ -25,7 +23,7 @@
 .card header h3{
     font-size: 40px;
     font-weight: var(--title-weight);
-    margin-top: 8px 0 0;
+    margin:8px 0 0;
 }
 
 .card header span{
@@ -48,4 +46,11 @@
         font-size: 40px;  
     }
     
+}
+
+section.offers .offers-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
 }
