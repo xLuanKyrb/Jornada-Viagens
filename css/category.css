@@ -1,0 +1,34 @@
+.categories .section-title {
+    width: 312px; margin: 0 auto;
+}
+
+.categories-cards{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    flex-direction: column;
+}
+
+.categories-cards a.card {
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secondary-color);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 41px 116px 24px 116px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--text-primary-color);   
+}
+
+.categories-cards .card h3{
+    margin: 8px 0 0;
+    font-size: 24px;
+    font-weight: var(--title-weight);
+}
+
+.categories-cards .card img{
+    width: 80px;
+    height: 80px;
+}
