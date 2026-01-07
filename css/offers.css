@@ -39,6 +39,30 @@ section.offers .offers-cards{
     align-items: center;
 }
 
+.card.japao{
+    background-image: url('../img/bg-card-tokyo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.sanandreas{
+    background-image: url('../img/bg-card-sanandreas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.paraiba{
+    background-image: url('../img/bg-card-paraiba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.manaus{
+    background-image: url('../img/bg-card-manaus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
     .card{
         width: 558px;
