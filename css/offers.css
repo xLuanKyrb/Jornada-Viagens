@@ -1,3 +1,10 @@
+.offers-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
 .card {
     color: var(--text-secondary-color);
     background-color: black;
@@ -32,13 +39,6 @@
     display: inline-block;    
 }
 
-section.offers .offers-cards{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: center;
-}
-
 .card.japao{
     background-image: url('../img/bg-card-tokyo.jpg');
     background-repeat: no-repeat;
@@ -63,9 +63,17 @@ section.offers .offers-cards{
     background-size: cover;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
+    .offers-cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .card{
-        width: 558px;
+        width: 420px;
         height: 308px;
     }
 
@@ -79,4 +87,16 @@ section.offers .offers-cards{
     
 }
 
+@media screen and (min-width: 1440px) {
+    .card{
+        width: 588px;
+    }
+}
 
+@media screen and (min-width: 1920px) {
+    .offers-cards{
+        width: 1250px;
+        margin: 0 auto;
+    }
+    
+}
