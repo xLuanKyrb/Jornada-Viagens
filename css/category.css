@@ -1,13 +1,13 @@
 .categories .section-title {
-    width: 312px; margin: 0 auto;
+    width: 312px; margin:  64px auto;
 }
 
 .categories-cards{
     display: flex;
     align-items: center;
     gap: 24px;
-    margin-top: 24px;
     flex-direction: column;
+    margin-top: 24px;
 }
 
 .categories-cards a.card {
@@ -16,19 +16,26 @@
     background-color: var(--background-secondary-color);
     text-align: center;
     box-sizing: border-box;
-    padding: 41px 116px 24px 116px;
+    padding: 24px;
     border-radius: 16px;
     text-decoration: none;
     color: var(--text-primary-color);   
 }
 
 .categories-cards .card h3{
-    margin: 8px 0 0;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: var(--title-weight);
+}
+
+.categories-cards .card.single-line.transfer img{
+    margin: 10px;
 }
 
 .categories-cards .card img{
     width: 80px;
     height: 80px;
+}
+
+@media screen {
+    
 }
