@@ -50,16 +50,34 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--text-primary-color);
 }
-
-.section-title h2{
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  color: var(--text-primary-color);
-  margin: 0px;
-  text-align: center;
+section {
+  width: 312px;
+  margin: 0 auto;
 }
 
-.section-title hr{
+section.hero {
+  width: 100%;
+}
+
+section.bottom-hero{
+  width: 100%;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+  font-size: 32px;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+  padding: 88px 0 0;
+}
+
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -67,28 +85,72 @@ body {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--titles-weigth);
+  margin-bottom: 24px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+}
+
 .button {
-    width: 280px;
-    height: 64px;
-    color: var(--text-secondary-color);
-    font-weight: var(--title-weight);
-    font-size: 20px;
-    background-color: var(--secondary-color);
-    border-radius: 16px;
-    display: inline-block;
-    text-decoration: none;
-    line-height: 64px;
+  min-width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--titles-weigth);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .section-title h2{
+  section {
+    width: 648px;
+  }
+  .section-title {
+    width: 100%;
+    margin: 0 auto 32px;
     font-size: 32px;
+  }
+  .section-title h2 {
+    font-size: 34px;
+  }
+  .section-title hr {
+    margin: 16px auto 64px;
   }
 }
 
-@media screen and (min-width: 1024) {
-  .button:hover{
+@media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
+  section .hero {
+    width: 100%;
+  }
+  .content-title {
+    font-size: 30px;
+  }
+  .content-text {
+    font-size: 24px;
+  }
+  .button:hover {
     background-color: var(--primary-color);
   }
+}
 
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+    align-items: center;
+  }
+  section .hero {
+    width: 100%;
+  }
 }

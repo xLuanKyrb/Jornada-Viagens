@@ -1,9 +1,3 @@
-.categories{
-    margin-bottom: 64px;
-}
-.categories .section-title {
-    width: 312px; margin:  64px auto;
-}
 
 .categories-cards{
     display: flex;
