@@ -1,0 +1,31 @@
+.payments .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+  }
+
+.payments .image-gallery .image.primary{
+    background-size: cover;
+    background-image: url(../img/clothes.png);
+    background-repeat: no-repeat;
+}
+
+.payments .image-gallery .image.secundary{
+    background-size: cover;
+    background-image: url(../img/passport.png);
+    background-repeat: no-repeat;
+}
+
+.payments .image-gallery .image.thirdy{
+    background-size: cover;
+    background-image: url(../img/people.png);
+    background-repeat: no-repeat;
+}
+
+.payments .image-gallery .image.colspan-2{
+    grid-column: span 2;
+}
+
