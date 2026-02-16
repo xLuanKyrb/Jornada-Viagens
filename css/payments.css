@@ -8,9 +8,6 @@
     width: 100%;
   }
 
-.payments .content-conteiner{
-    display: flex;
-}
 
 .payments .content-conteiner .image-gallery .image.primary{
     background-size: cover;
@@ -49,11 +46,16 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+    .payments .content-conteiner{
+    display: flex;
+}
     .payments .content-conteiner{
         justify-content: space-between;
     }
     .payments .content-conteiner .text-content{
         width: 390px;
+        justify-content: space-between;
     }
     .payments .content-conteiner .image-gallery{
         width: 790px;
