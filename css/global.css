@@ -93,14 +93,14 @@ section.bottom-hero{
 
 .content-text {
   font-size: 20px;
-  font-weight: var(--text-weigth);
+  font-weight: var(--text-weight);
 }
 
 .button {
   min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
-  font-weight: var(--titles-weigth);
+  font-weight: var(--title-weight);
   font-size: 20px;
   background-color: var(--secondary-color);
   border-radius: 16px;
